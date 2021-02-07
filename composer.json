@@ -1,0 +1,20 @@
+{
+    "name": "carloswph/cmb-helper",
+    "description": "Bunch of helper classes to make CMB2 easier to use.",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "carlos",
+            "email": "geral@meuppt.pt"
+        }
+    ],
+    "require": {
+        "cmb2/cmb2": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPH\\CMB\\": "src/"
+        }
+    }
+}
